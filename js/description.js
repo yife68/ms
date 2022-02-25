@@ -37,9 +37,17 @@ function loadPackageInfo() {
 				$("#desc_short").html(decodeResp.desc_short);
 				$("#desc_short_").show();
 			}
+           if(decodeResp.desc_version) {
+           $("#version").html(decodeResp.desc_version);
+           $("#version_").show();
+           }
 			if(decodeResp.warning) {
 				$("#warning").html(decodeResp.warning);
 				$("#warning_").show();
+			}
+			if(decodeResp.desc_version) {
+				$("#desc_version").html(decodeResp.desc_version);
+				$("#desc_version_").show();
 			}
 			if(decodeResp.compatitle) {
 				$("#compatitle").html(decodeResp.compatitle);
@@ -49,6 +57,10 @@ function loadPackageInfo() {
 					$("#your_ios").show();
 					$("#your_ios").html("检测你的系统型号是: "+ios_ver);
 				}
+			}
+			if(decodeResp.changelog) {
+				$("#changelog").html(decodeResp.changelog);
+				$("#changelog_").show();
 			}
 			if(decodeResp.screenshot) {
 				$("#screenshot").html(decodeResp.screenshot);
