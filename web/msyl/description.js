@@ -18,7 +18,7 @@ function loadPackageInfo() {
         $("#showAddRepoUrl_").show();
     }
     var urlSelfParts = window.location.href.split('index.html?id=');
-    var form_url = urlSelfParts[0]+"msxq/"+urlSelfParts[1];
+    var form_url = urlSelfParts[0]+"web/"+urlSelfParts[1];
     $.ajax({
            url: form_url,
            type: "GET",
