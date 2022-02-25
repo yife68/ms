@@ -17,7 +17,7 @@ function loadPackageInfo() {
 		$("#showAddRepo_").show();
 		$("#showAddRepoUrl_").show();
 	}
-	var urlSelfParts = window.location.href.split('description.html?id=');
+	var urlSelfParts = window.location.href.split('index.html?id=');
 	var form_url = urlSelfParts[0]+"web/"+urlSelfParts[1];
 	console.log(form_url)
 	$.ajax({
@@ -89,7 +89,7 @@ function loadRecentUpdates() {
 			for (var dicNow in decodeResp) {
 				var urlOpen = "cydia://package/"+decodeResp[dicNow].package;
 				if (navigator.userAgent.search(/Cydia/) == -1) {
-					urlOpen = window.location.protocol+"//"+window.location.hostname+"/description.html?id="+decodeResp[dicNow].package;
+					urlOpen = window.location.protocol+"//"+window.location.hostname+"/index.html?id="+decodeResp[dicNow].package;
 				}
 				htmlnews +=  "<li><a href='"+urlOpen+"' target='_blank'><img class='icon' src='tweak.png'/><label>"+decodeResp[dicNow].name+" v"+decodeResp[dicNow].version+"</label></a></li>";
 			}
