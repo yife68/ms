@@ -30,7 +30,8 @@ h2 a, body > p a {
 }
 
 h2 {
-    text-transform: uppercase;
+    /*英文字体全部大写*/
+    /*text-transform: uppercase;*/
     margin-bottom: 5px
 }
 
