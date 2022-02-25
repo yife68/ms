@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>热心小网友</title>
+    <title>iCat 爱吃肉的猫</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' type='text/css' href='./css/ios7.css'/>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' href='./msyl/ios7.css'/>
+    <link rel="stylesheet" href="./msyl/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery.querystring.js"></script>
     <script type="text/javascript" src="js/data-loader-engine.js"></script>
     <script type="text/javascript" src="js/ios_version_check.js"></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/description.js?_=46545663394">
+    <script src="./msyl/ios7.min.js"></script>
+    <script src="./msyl/description.js" async=""></script>
+    <script src="./msyl/jquery-3.2.1.min.js"></script>
     </script>
 </head>
 <body onload="loadPackageInfo();loadRecentUpdates();">
 <div class="container">
     <div id="showAddRepo_" hidden>
-        <h2>热心小网友的个人源</h2>
-        <!--<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://rexinxwy.github.io/repo/">-->
+        <h2>iCat's Repo - 个人源</h2>
+        <!--<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://meuicat.com/repo/">-->
             <!--<img class="icon" src="../images/cydia7.png"/>-->
             <!--<label><h3>打开cydia查看</h3></label></a>-->
     </div>
     <div class="container">
         <p style="text-align:center;" id="showAddRepoUrl_" hidden>
-            <FONT COLOR="#ff0000">个人源:https://rexinxwy.github.io/repo/</FONT>
+            <FONT COLOR="#ff0000">个人源:https:/meuicat.com/repo/</FONT>
         </p>
     </div>
     <div id="tweakStatusInfo">
@@ -66,27 +67,35 @@
     </div>
     <!-- cydia打开第一页第一屏最底下显示 -->
     <h3>联系我</h3>
-    <!--<ul>-->
-    <!--<li>-->
-    <!--<a href="https://qm.qq.com/cgi-bin/qm/qr?k=3E6NIMRxJuoAGun5DH6XLWoQ8cm5T4TW" target="_blank">-->
-    <!--<img class="icon" src="qq.png"/>-->
-    <!--<label>点击添加我的qq群</label>-->
-    <!--</a>-->
-    <!--</li>-->
-    <!--</ul>-->
     <ul>
         <li>
-            <img height="80%" width="100%" src="./images/wechat.png" alt="热心小网友"/>
+            <img height="80%" width="100%" src="../images/wechat.png" alt="热心小网友"/>
         </li>
     </ul>
 
 
     <h3>源说明</h3>
     <div class="container" id="dependenciesContainer">
-        <span>个人软件源,此源永久免费,造福自己<br>源里的插件只在IOS 13.5测试过,不要问为啥</span>
+        <span>iCat博主 个人软件源,此源永久免费<br>源里的插件只在<font color="#ff0000">IOS 14.4 & 14.6 & 14.8</font>测试使用</span>
     </div>
 
-    <hr/>
+    <br/>
+
+    <ul>
+        <li class="has-icon">
+            <a href="https://kupord.github.io/" target="_blank" role="button" style="color: black;">
+            <img href="./images/cy.png" alt="" srcset="./images/icon-kupord.png" class="icon">kupord™源主页</a>
+        </li>
+        <li class="has-icon">
+            <a href="mailto:kupord@163.com"  target="_blank" role="button" style="color: black;">
+            <img href="./images/email.png" alt="" srcset="./images/icon-email.png" class="icon">发送邮件</a>
+        </li>
+        <li class="has-icon">
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=352227214&site=qq&menu=yes"  target="_blank" role="button" style="color: black;">
+            <img href="./images/qq.png" alt="" srcset="./images/icon-qq.png" class="icon">联系QQ</a>
+        </li>
+    </ul>
+
     <!-- 游览器打开源网站打开最下显示-->
 
     <center>
@@ -183,6 +192,10 @@
             $('#run_time').html(runTime())
         }, 1000);
     </script>
+    <center>
+        <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1277767413'%3E%3C/span%3E%3Cscript src='https://s23.cnzz.com/z_stat.php%3Fid%3D1277767413%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+    </center>
+    <br/>
 </div>
 </body>
 
