@@ -30,7 +30,7 @@ h2 a, body > p a {
 }
 
 h2 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-bottom: 5px
 }
 
