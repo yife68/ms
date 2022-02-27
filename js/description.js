@@ -72,7 +72,7 @@ function loadPackageInfo() {
 			
         },
 		error: function (err) {
-			$("#errorInfo").html("<strong>请联系管理员上传描述文件</strong><br>缺少相关文件<br>"+urlSelfParts[1]);
+			$("#errorInfo").html("<strong>请联系iCat博主上传描述文件</strong><br>缺少相关文件<br>"+urlSelfParts[1]);
 		}
 	});
 }

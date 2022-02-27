@@ -1,0 +1,9 @@
+{
+	"name": "AppData 「应用数据」",
+	"desc_short": "程序图标向上滑动或者长按查看和访问程序数据，清除缓存/角标等，类似IconTweak/AppTools插件，汉化设置，支持iOS11+",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:14.4",
+	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://meuicat.com/images/appdata.png'/></a><br></div>",
+	"open": true,
+}

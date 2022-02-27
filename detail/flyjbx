@@ -1,0 +1,9 @@
+{
+	"name": "FlyJB X「屏蔽越狱检测」",
+	"desc_short": "又一款屏蔽越狱插件，单独屏蔽越狱检测激活面容、指纹支付，安装完在桌面即可打开使用；支付宝建议使用libertybeta",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:14.4",
+	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://meuicat.com/images/flyjbx.png'/></a><br></div>",
+	"open": true,
+}
