@@ -1,0 +1,9 @@
+{
+	"name": "DumpDecrypter「砸壳工具」",
+	"desc_short": "DumpDecrypter是基于dumpdecrypted的修改封装；使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用，在dumpdecrypted基础上增加可选删除小组件可选删除手表组件，可选删除版本限制，可选删除设备限制，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks等",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:14.4",
+	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://meuicat.com/ms/images/dumpdecrypter.png'/></a><br></div>",
+	"open": true,
+}
