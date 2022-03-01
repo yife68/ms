@@ -1,0 +1,9 @@
+{
+	"name": "BarBatteryInfo 「电池信息参数」",
+	"desc_short": "通过单击状态栏电池图标快捷展示</br>电池常用信息参数，当信息窗口打开时，参数信息将属于实时刷新状态",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:14.4",
+	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://meuicat.com/ms/images/barbatteryinfo.png'/></a><br></div>",
+	"open": true,
+}

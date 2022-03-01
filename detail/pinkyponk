@@ -1,0 +1,9 @@
+{
+	"name": "Pinky Ponk「强制关闭WiFi蓝牙」",
+	"desc_short": "Pinky Ponk可以从控制中心直接关闭蓝牙或者WiFi",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:14.4",
+	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://meuicat.com/ms/images/pinkyponk.png'/></a><br></div>",
+	"open": true,
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Sentinel 「虚假关机」",
+	"desc_short": "电池没电时，不必再进行越狱了！Sentinel旨在帮助您避免用尽电池后不必再次越狱。当电池电量达到设定的百分比时,将虚假关机,启动时不必再次越狱",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:14.4",
+	"changelog": "<strong>历史变更</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://meuicat.com/ms/images/null.png'/></a><br></div>",
+	"open": true,
+}
